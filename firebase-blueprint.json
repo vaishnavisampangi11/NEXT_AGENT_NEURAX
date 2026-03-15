@@ -1,0 +1,99 @@
+{
+  "entities": {
+    "Workflow": {
+      "title": "Workflow",
+      "description": "History of autonomous workflow executions",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string", "description": "User ID of the owner" },
+        "project": { "type": "string", "description": "Project name" },
+        "request": { "type": "string", "description": "Original user request" },
+        "analysis": { "type": "string", "description": "Agent analysis" },
+        "tasks": { "type": "array", "description": "List of assigned tasks" },
+        "timestamp": { "type": "string", "format": "date-time", "description": "Execution time" }
+      },
+      "required": ["uid", "project", "analysis", "timestamp"]
+    },
+    "FileQuery": {
+      "title": "File Query",
+      "description": "History of questions asked about files",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string", "description": "User ID of the owner" },
+        "fileName": { "type": "string", "description": "Name of the file queried" },
+        "query": { "type": "string", "description": "User question" },
+        "answer": { "type": "string", "description": "Agent answer" },
+        "sourceFiles": { "type": "array", "description": "List of files used for the answer" },
+        "timestamp": { "type": "string", "format": "date-time", "description": "Query time" }
+      },
+      "required": ["uid", "fileName", "query", "answer", "timestamp"]
+    },
+    "Employee": {
+      "title": "Employee",
+      "description": "Employee performance and skill data",
+      "type": "object",
+      "properties": {
+        "employee_id": { "type": "string" },
+        "name": { "type": "string" },
+        "role": { "type": "string" },
+        "skills": { "type": "string" },
+        "experience_years": { "type": "string" },
+        "current_workload_percent": { "type": "string" },
+        "completed_on_time": { "type": "number" },
+        "delayed": { "type": "number" },
+        "total_tasks_assigned": { "type": "number" },
+        "total_tasks_completed": { "type": "number" },
+        "current_project": { "type": "string" }
+      },
+      "required": ["employee_id", "name", "role", "skills"]
+    },
+    "Tool": {
+      "title": "Tool",
+      "description": "Available tools for workflows",
+      "type": "object",
+      "properties": {
+        "tool_id": { "type": "string" },
+        "name": { "type": "string" },
+        "description": { "type": "string" },
+        "category": { "type": "string" }
+      },
+      "required": ["tool_id", "name"]
+    },
+    "ProjectHistory": {
+      "title": "Project History",
+      "description": "Historical project data for reference",
+      "type": "object",
+      "properties": {
+        "project_id": { "type": "string" },
+        "name": { "type": "string" },
+        "description": { "type": "string" },
+        "outcome": { "type": "string" },
+        "duration_days": { "type": "number" },
+        "team_size": { "type": "number" }
+      },
+      "required": ["project_id", "name"]
+    }
+  },
+  "firestore": {
+    "workflows": {
+      "schema": "Workflow",
+      "description": "Collection of user workflow histories"
+    },
+    "file_queries": {
+      "schema": "FileQuery",
+      "description": "Collection of user file query histories"
+    },
+    "employees": {
+      "schema": "Employee",
+      "description": "Collection of employee performance data"
+    },
+    "tools": {
+      "schema": "Tool",
+      "description": "Collection of available tools"
+    },
+    "project_history": {
+      "schema": "ProjectHistory",
+      "description": "Collection of historical project data"
+    }
+  }
+}

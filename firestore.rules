@@ -1,0 +1,103 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // ===============================================================
+    // Assumed Data Model
+    // ===============================================================
+    //
+    // Collection: workflows
+    // Fields:
+    //   - uid: string (required) - Owner's UID
+    //   - project: string (required) - Project name
+    //   - request: string (optional) - Original request
+    //   - analysis: string (required) - Agent analysis
+    //   - tasks: list (required) - List of task objects
+    //   - timestamp: timestamp (required) - Creation time
+    //
+    // Collection: file_queries
+    // Fields:
+    //   - uid: string (required) - Owner's UID
+    //   - fileName: string (required) - Name of file
+    //   - query: string (required) - User question
+    //   - answer: string (required) - Agent answer
+    //   - timestamp: timestamp (required) - Creation time
+    //
+    // ===============================================================
+
+    // ===============================================================
+    // Helper Functions
+    // ===============================================================
+    
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+
+    function isAdmin() {
+      return isAuthenticated() &&
+        (get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'admin' ||
+          (request.auth.token.email == "vaish1112006@gmail.com" && request.auth.token.email_verified == true));
+    }
+
+    function isValidWorkflow(data) {
+      return data.keys().hasAll(['uid', 'project', 'analysis', 'tasks', 'timestamp', 'progress', 'request']) &&
+             data.uid is string &&
+             data.project is string && data.project.size() < 200 &&
+             data.analysis is string && data.analysis.size() < 10000 &&
+             data.tasks is list &&
+             data.progress is number && data.progress >= 0 && data.progress <= 100 &&
+             data.request is string && data.request.size() < 5000 &&
+             data.timestamp is timestamp;
+    }
+
+    function isValidQuery(data) {
+      return data.keys().hasAll(['uid', 'fileName', 'query', 'answer', 'timestamp', 'sourceFiles']) &&
+             data.uid is string &&
+             data.fileName is string && data.fileName.size() < 200 &&
+             data.query is string && data.query.size() < 1000 &&
+             data.answer is string && data.answer.size() < 5000 &&
+             data.sourceFiles is list &&
+             data.timestamp is timestamp;
+    }
+
+    // ===============================================================
+    // Rules
+    // ===============================================================
+
+    match /workflows/{workflowId} {
+      allow read: if isOwner(resource.data.uid) || isAdmin();
+      allow create: if isAuthenticated() && isValidWorkflow(request.resource.data) && (request.resource.data.uid == request.auth.uid || isAdmin());
+      allow update: if (isOwner(resource.data.uid) && isValidWorkflow(request.resource.data) && request.resource.data.uid == resource.data.uid) || isAdmin();
+      allow delete: if isAdmin();
+    }
+
+    match /file_queries/{queryId} {
+      allow read: if isOwner(resource.data.uid) || isAdmin();
+      allow create: if isAuthenticated() && isValidQuery(request.resource.data) && (request.resource.data.uid == request.auth.uid || isAdmin());
+      allow update, delete: if isAdmin();
+    }
+
+    match /employees/{employeeId} {
+      allow read: if isAuthenticated();
+      allow write: if isAdmin();
+    }
+
+    match /tools/{toolId} {
+      allow read: if isAuthenticated();
+      allow write: if isAdmin();
+    }
+
+    match /project_history/{historyId} {
+      allow read: if isAuthenticated();
+      allow write: if isAdmin();
+    }
+
+    match /users/{userId} {
+      allow read: if isOwner(userId) || isAdmin();
+      allow write: if isAdmin();
+    }
+  }
+}

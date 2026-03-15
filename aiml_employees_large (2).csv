@@ -1,0 +1,501 @@
+employee_id,name,role,skills,experience_years,current_workload_percent
+EMP0001,Employee_1,Backend Developer,TensorFlow;SQL;APIs;Pandas,11,38
+EMP0002,Employee_2,ML Engineer,Node.js;APIs;SQL;Pandas;VectorDB,6,32
+EMP0003,Employee_3,AI Engineer,Kubernetes;LangChain;PyTorch,5,90
+EMP0004,Employee_4,Backend Developer,Node.js;Pandas;LLM;APIs;RAG,4,51
+EMP0005,Employee_5,ML Engineer,LLM;Pandas;PyTorch,2,87
+EMP0006,Employee_6,ML Engineer,PyTorch;Pandas;APIs;TensorFlow,10,83
+EMP0007,Employee_7,Backend Developer,APIs;RAG;TensorFlow;Python;VectorDB;LLM,5,28
+EMP0008,Employee_8,AI Engineer,LLM;Docker;React;APIs;RAG;VectorDB,11,64
+EMP0009,Employee_9,DevOps Engineer,PyTorch;React;TensorFlow;Docker;LLM;Pandas,8,46
+EMP0010,Employee_10,Data Engineer,LLM;React;Node.js,1,78
+EMP0011,Employee_11,ML Engineer,Node.js;Python;React;Pandas;Kubernetes,3,61
+EMP0012,Employee_12,Backend Developer,SQL;APIs;Pandas;VectorDB;React,4,26
+EMP0013,Employee_13,Frontend Developer,Python;SQL;RAG;Node.js;LLM,8,87
+EMP0014,Employee_14,ML Engineer,Python;PyTorch;SQL,6,46
+EMP0015,Employee_15,Backend Developer,APIs;LangChain;RAG;TensorFlow;LLM;Docker,1,86
+EMP0016,Employee_16,ML Engineer,Node.js;Kubernetes;PyTorch;VectorDB;Docker,2,65
+EMP0017,Employee_17,Backend Developer,LangChain;Kubernetes;Docker;React;SQL;Python,8,49
+EMP0018,Employee_18,Frontend Developer,Node.js;TensorFlow;APIs;Docker;Pandas;RAG,8,36
+EMP0019,Employee_19,Frontend Developer,RAG;VectorDB;Docker;Pandas,10,66
+EMP0020,Employee_20,Backend Developer,Python;PyTorch;RAG;VectorDB;LLM;Kubernetes,12,27
+EMP0021,Employee_21,Data Scientist,Docker;React;TensorFlow;APIs;Pandas;LangChain,1,85
+EMP0022,Employee_22,AI Engineer,LangChain;LLM;RAG,2,84
+EMP0023,Employee_23,AI Engineer,APIs;VectorDB;React;Node.js;TensorFlow,12,87
+EMP0024,Employee_24,AI Engineer,Pandas;PyTorch;LLM;Kubernetes;Docker,3,56
+EMP0025,Employee_25,DevOps Engineer,Kubernetes;TensorFlow;LangChain;Python,7,34
+EMP0026,Employee_26,Backend Developer,Pandas;SQL;LangChain,12,34
+EMP0027,Employee_27,ML Engineer,VectorDB;Node.js;SQL;Docker;Kubernetes,9,24
+EMP0028,Employee_28,DevOps Engineer,LangChain;LLM;RAG;React;Docker,12,78
+EMP0029,Employee_29,Backend Developer,Pandas;APIs;SQL;LangChain,4,56
+EMP0030,Employee_30,Backend Developer,PyTorch;Python;RAG;TensorFlow;Docker;VectorDB,9,27
+EMP0031,Employee_31,AI Engineer,SQL;LangChain;Node.js;Docker;VectorDB;PyTorch,2,79
+EMP0032,Employee_32,ML Engineer,Node.js;Pandas;Python,3,79
+EMP0033,Employee_33,Data Engineer,TensorFlow;LangChain;Docker;RAG;Python,6,29
+EMP0034,Employee_34,Backend Developer,SQL;React;Python;APIs,10,54
+EMP0035,Employee_35,ML Engineer,Node.js;React;Kubernetes;LLM;RAG;VectorDB,4,74
+EMP0036,Employee_36,DevOps Engineer,RAG;APIs;LangChain;TensorFlow,2,73
+EMP0037,Employee_37,Backend Developer,PyTorch;LangChain;SQL;TensorFlow;Kubernetes;RAG,4,47
+EMP0038,Employee_38,Data Scientist,PyTorch;React;VectorDB;Pandas;Docker;APIs,7,10
+EMP0039,Employee_39,DevOps Engineer,PyTorch;LangChain;Python;Docker;LLM,6,12
+EMP0040,Employee_40,AI Engineer,Docker;Python;React;SQL;TensorFlow;Node.js,6,38
+EMP0041,Employee_41,Backend Developer,VectorDB;TensorFlow;SQL;Node.js,6,85
+EMP0042,Employee_42,Data Scientist,Pandas;RAG;PyTorch;VectorDB;Python;SQL,7,69
+EMP0043,Employee_43,AI Engineer,VectorDB;Node.js;Pandas;Docker;SQL;Python,8,50
+EMP0044,Employee_44,Backend Developer,React;VectorDB;Pandas,5,81
+EMP0045,Employee_45,Data Engineer,LLM;LangChain;PyTorch;Node.js;Docker;RAG,7,72
+EMP0046,Employee_46,Backend Developer,Python;Docker;React;Pandas,5,65
+EMP0047,Employee_47,Data Scientist,SQL;Pandas;Python,4,33
+EMP0048,Employee_48,Data Engineer,Pandas;PyTorch;RAG;TensorFlow,12,39
+EMP0049,Employee_49,ML Engineer,Kubernetes;PyTorch;Docker;LLM,4,83
+EMP0050,Employee_50,Frontend Developer,RAG;APIs;VectorDB;Node.js,1,47
+EMP0051,Employee_51,Backend Developer,Pandas;Node.js;TensorFlow,4,11
+EMP0052,Employee_52,Data Scientist,Node.js;VectorDB;LangChain;TensorFlow;RAG,11,12
+EMP0053,Employee_53,Data Scientist,PyTorch;LLM;Docker,7,39
+EMP0054,Employee_54,Frontend Developer,Node.js;LLM;VectorDB;Python,10,37
+EMP0055,Employee_55,Data Scientist,React;VectorDB;Pandas;Docker;Kubernetes,5,27
+EMP0056,Employee_56,Frontend Developer,VectorDB;APIs;RAG;PyTorch,10,63
+EMP0057,Employee_57,ML Engineer,Kubernetes;PyTorch;LLM,10,29
+EMP0058,Employee_58,AI Engineer,Python;LangChain;TensorFlow,2,80
+EMP0059,Employee_59,Data Scientist,React;SQL;Docker,1,86
+EMP0060,Employee_60,Frontend Developer,React;TensorFlow;Kubernetes;VectorDB;Python;Docker,1,65
+EMP0061,Employee_61,Data Scientist,TensorFlow;Kubernetes;VectorDB;APIs,10,41
+EMP0062,Employee_62,ML Engineer,Pandas;SQL;Python;TensorFlow,1,86
+EMP0063,Employee_63,Data Engineer,SQL;Python;Kubernetes;Node.js,12,15
+EMP0064,Employee_64,Data Scientist,Pandas;Node.js;RAG,4,34
+EMP0065,Employee_65,Data Scientist,APIs;Node.js;Docker;LangChain;Pandas;React,2,77
+EMP0066,Employee_66,Data Scientist,RAG;TensorFlow;VectorDB;SQL;LLM;Kubernetes,12,24
+EMP0067,Employee_67,DevOps Engineer,TensorFlow;LangChain;Docker,2,74
+EMP0068,Employee_68,Data Scientist,VectorDB;APIs;LangChain;Kubernetes,8,56
+EMP0069,Employee_69,DevOps Engineer,PyTorch;React;SQL;LLM;RAG,8,42
+EMP0070,Employee_70,ML Engineer,LLM;Kubernetes;RAG;Node.js,11,37
+EMP0071,Employee_71,Backend Developer,SQL;Pandas;Node.js;Docker;Python,3,41
+EMP0072,Employee_72,Backend Developer,Pandas;TensorFlow;RAG,9,11
+EMP0073,Employee_73,Frontend Developer,VectorDB;Docker;APIs;SQL,4,14
+EMP0074,Employee_74,Frontend Developer,TensorFlow;LangChain;RAG;LLM;APIs,9,89
+EMP0075,Employee_75,Data Scientist,PyTorch;Kubernetes;VectorDB;Node.js,5,37
+EMP0076,Employee_76,ML Engineer,Docker;RAG;Pandas,6,82
+EMP0077,Employee_77,DevOps Engineer,Kubernetes;Node.js;SQL,3,22
+EMP0078,Employee_78,ML Engineer,SQL;Pandas;Node.js;PyTorch;TensorFlow;RAG,4,78
+EMP0079,Employee_79,AI Engineer,VectorDB;SQL;Kubernetes,9,33
+EMP0080,Employee_80,Backend Developer,PyTorch;LLM;Docker;SQL;Pandas;Kubernetes,3,47
+EMP0081,Employee_81,Frontend Developer,Node.js;Pandas;APIs;LLM;VectorDB;Docker,8,73
+EMP0082,Employee_82,ML Engineer,Python;RAG;TensorFlow;LLM;VectorDB;Docker,9,80
+EMP0083,Employee_83,DevOps Engineer,PyTorch;VectorDB;LLM;TensorFlow,10,64
+EMP0084,Employee_84,Data Scientist,Kubernetes;LangChain;VectorDB;React;RAG;SQL,8,23
+EMP0085,Employee_85,AI Engineer,RAG;Python;Node.js;SQL;APIs,1,86
+EMP0086,Employee_86,Frontend Developer,RAG;Pandas;Python;Docker,3,73
+EMP0087,Employee_87,Backend Developer,Kubernetes;LLM;Python;RAG;Node.js;LangChain,6,24
+EMP0088,Employee_88,Data Scientist,APIs;PyTorch;Pandas;Kubernetes;RAG;LangChain,12,32
+EMP0089,Employee_89,DevOps Engineer,LLM;Node.js;APIs;Pandas;PyTorch;React,6,66
+EMP0090,Employee_90,Data Scientist,VectorDB;RAG;SQL;Node.js;Python;React,3,50
+EMP0091,Employee_91,Frontend Developer,RAG;LangChain;Docker;LLM;Python,11,42
+EMP0092,Employee_92,Backend Developer,VectorDB;LangChain;LLM,7,82
+EMP0093,Employee_93,DevOps Engineer,Pandas;RAG;React;APIs,3,46
+EMP0094,Employee_94,ML Engineer,Kubernetes;Pandas;TensorFlow;LLM,5,43
+EMP0095,Employee_95,Data Scientist,Kubernetes;RAG;Docker,8,61
+EMP0096,Employee_96,Data Scientist,React;Pandas;Docker,3,66
+EMP0097,Employee_97,ML Engineer,Pandas;SQL;Kubernetes;LangChain,7,56
+EMP0098,Employee_98,Data Scientist,TensorFlow;APIs;Node.js;PyTorch;React,4,44
+EMP0099,Employee_99,ML Engineer,VectorDB;PyTorch;LangChain;APIs,11,61
+EMP0100,Employee_100,AI Engineer,LLM;PyTorch;RAG;LangChain,2,89
+EMP0101,Employee_101,Data Scientist,Node.js;TensorFlow;APIs;PyTorch,7,47
+EMP0102,Employee_102,Data Engineer,Python;React;LLM;SQL,3,35
+EMP0103,Employee_103,DevOps Engineer,React;SQL;Python,7,58
+EMP0104,Employee_104,Backend Developer,RAG;Kubernetes;VectorDB;LLM;Python,11,16
+EMP0105,Employee_105,AI Engineer,LLM;LangChain;Docker;TensorFlow,7,20
+EMP0106,Employee_106,AI Engineer,PyTorch;SQL;RAG;Kubernetes;Docker,7,52
+EMP0107,Employee_107,Backend Developer,VectorDB;React;Kubernetes;TensorFlow;LLM,1,88
+EMP0108,Employee_108,Data Engineer,RAG;TensorFlow;SQL,1,70
+EMP0109,Employee_109,Backend Developer,Pandas;SQL;React;PyTorch;Docker;RAG,9,52
+EMP0110,Employee_110,Data Scientist,LLM;Pandas;LangChain,4,31
+EMP0111,Employee_111,AI Engineer,VectorDB;RAG;APIs;LangChain,5,13
+EMP0112,Employee_112,Frontend Developer,PyTorch;Node.js;Docker,6,87
+EMP0113,Employee_113,Backend Developer,SQL;APIs;React;Node.js,9,17
+EMP0114,Employee_114,Data Engineer,SQL;LangChain;VectorDB,6,11
+EMP0115,Employee_115,Frontend Developer,VectorDB;TensorFlow;React,8,77
+EMP0116,Employee_116,Data Engineer,Pandas;APIs;VectorDB,3,52
+EMP0117,Employee_117,Frontend Developer,VectorDB;Python;LLM;Kubernetes;APIs;Node.js,4,36
+EMP0118,Employee_118,Data Engineer,PyTorch;VectorDB;LangChain;Kubernetes,6,22
+EMP0119,Employee_119,ML Engineer,Python;APIs;LangChain;React;PyTorch,5,80
+EMP0120,Employee_120,Data Scientist,TensorFlow;VectorDB;Node.js;React;Pandas,7,76
+EMP0121,Employee_121,Backend Developer,PyTorch;LangChain;RAG;Kubernetes;APIs;React,1,44
+EMP0122,Employee_122,Data Engineer,React;Docker;Kubernetes;LLM;Pandas;Node.js,3,48
+EMP0123,Employee_123,DevOps Engineer,Python;Docker;PyTorch,12,40
+EMP0124,Employee_124,Data Scientist,VectorDB;React;Kubernetes;Docker;Pandas;Python,7,81
+EMP0125,Employee_125,Frontend Developer,RAG;PyTorch;React;Pandas,4,45
+EMP0126,Employee_126,AI Engineer,PyTorch;Pandas;Docker,7,69
+EMP0127,Employee_127,ML Engineer,SQL;LLM;Python;Docker;Node.js,12,51
+EMP0128,Employee_128,Frontend Developer,Kubernetes;PyTorch;SQL;Python;RAG;React,4,31
+EMP0129,Employee_129,AI Engineer,PyTorch;Node.js;VectorDB;LLM;Kubernetes;Docker,5,31
+EMP0130,Employee_130,Backend Developer,Python;LangChain;Node.js;React;SQL,2,48
+EMP0131,Employee_131,AI Engineer,VectorDB;APIs;Docker;Python;RAG;Pandas,8,22
+EMP0132,Employee_132,Data Engineer,Kubernetes;TensorFlow;Pandas;Node.js;VectorDB,11,68
+EMP0133,Employee_133,Data Engineer,APIs;VectorDB;Docker;Node.js,2,56
+EMP0134,Employee_134,DevOps Engineer,React;Python;LLM;RAG;LangChain,1,71
+EMP0135,Employee_135,ML Engineer,LLM;React;Node.js;SQL,4,48
+EMP0136,Employee_136,AI Engineer,RAG;Kubernetes;PyTorch,12,70
+EMP0137,Employee_137,Frontend Developer,React;SQL;Pandas;RAG;VectorDB,2,61
+EMP0138,Employee_138,ML Engineer,TensorFlow;Node.js;LangChain;APIs,8,46
+EMP0139,Employee_139,ML Engineer,Docker;VectorDB;APIs;React;Pandas;Kubernetes,10,75
+EMP0140,Employee_140,DevOps Engineer,SQL;LLM;Python;TensorFlow,12,20
+EMP0141,Employee_141,Backend Developer,Pandas;VectorDB;SQL;TensorFlow;LangChain,5,37
+EMP0142,Employee_142,Data Engineer,React;VectorDB;Pandas;TensorFlow;Node.js;LLM,12,42
+EMP0143,Employee_143,ML Engineer,Pandas;APIs;LangChain;Docker;TensorFlow,7,34
+EMP0144,Employee_144,AI Engineer,TensorFlow;SQL;PyTorch;LLM;Kubernetes,5,67
+EMP0145,Employee_145,AI Engineer,TensorFlow;LangChain;APIs;RAG;Python,11,53
+EMP0146,Employee_146,Data Scientist,LLM;Python;VectorDB;RAG;PyTorch;SQL,7,67
+EMP0147,Employee_147,AI Engineer,SQL;React;Node.js;LLM,4,68
+EMP0148,Employee_148,DevOps Engineer,LLM;Kubernetes;VectorDB;APIs;Pandas,8,23
+EMP0149,Employee_149,Data Scientist,APIs;Node.js;Docker;SQL;TensorFlow;RAG,7,41
+EMP0150,Employee_150,Data Scientist,React;Kubernetes;VectorDB;Docker;SQL;RAG,10,79
+EMP0151,Employee_151,DevOps Engineer,VectorDB;RAG;Kubernetes;TensorFlow;LangChain;LLM,12,39
+EMP0152,Employee_152,Data Engineer,Kubernetes;VectorDB;LangChain,3,22
+EMP0153,Employee_153,AI Engineer,Kubernetes;VectorDB;React;APIs;RAG,5,22
+EMP0154,Employee_154,Data Scientist,Pandas;Kubernetes;PyTorch;React;TensorFlow,6,40
+EMP0155,Employee_155,Data Scientist,PyTorch;Node.js;React,8,49
+EMP0156,Employee_156,ML Engineer,PyTorch;Docker;Pandas;LLM;RAG;Kubernetes,1,40
+EMP0157,Employee_157,Frontend Developer,Pandas;PyTorch;Python;LangChain;Node.js;VectorDB,1,56
+EMP0158,Employee_158,DevOps Engineer,RAG;Pandas;LangChain;Node.js,3,66
+EMP0159,Employee_159,AI Engineer,RAG;LLM;Docker;Kubernetes;APIs,3,52
+EMP0160,Employee_160,Data Engineer,Pandas;Kubernetes;PyTorch;Node.js;Docker;RAG,2,32
+EMP0161,Employee_161,ML Engineer,VectorDB;RAG;APIs;Kubernetes;LLM;Docker,11,37
+EMP0162,Employee_162,Frontend Developer,RAG;Docker;APIs,4,65
+EMP0163,Employee_163,ML Engineer,Kubernetes;SQL;LangChain,9,32
+EMP0164,Employee_164,Backend Developer,TensorFlow;APIs;Pandas;Kubernetes;LLM;PyTorch,4,54
+EMP0165,Employee_165,Backend Developer,RAG;React;PyTorch,9,47
+EMP0166,Employee_166,Frontend Developer,LLM;APIs;React;SQL;VectorDB;Python,8,50
+EMP0167,Employee_167,Backend Developer,React;RAG;PyTorch;Kubernetes;Docker,11,52
+EMP0168,Employee_168,AI Engineer,Docker;TensorFlow;PyTorch;Kubernetes,3,63
+EMP0169,Employee_169,Data Engineer,Node.js;PyTorch;Docker;LLM;Kubernetes,12,44
+EMP0170,Employee_170,Backend Developer,PyTorch;React;Pandas,3,50
+EMP0171,Employee_171,Frontend Developer,Node.js;Python;APIs;Pandas;SQL;Docker,12,11
+EMP0172,Employee_172,Data Engineer,PyTorch;Node.js;React;Docker,2,49
+EMP0173,Employee_173,Frontend Developer,RAG;Python;SQL;PyTorch;Kubernetes,6,69
+EMP0174,Employee_174,Frontend Developer,Docker;VectorDB;React;LangChain;Kubernetes;Node.js,12,22
+EMP0175,Employee_175,Backend Developer,SQL;Docker;APIs;LangChain,7,84
+EMP0176,Employee_176,AI Engineer,LangChain;React;TensorFlow;Docker;SQL;APIs,1,45
+EMP0177,Employee_177,Data Scientist,Node.js;Kubernetes;Python;PyTorch;LangChain;VectorDB,8,25
+EMP0178,Employee_178,DevOps Engineer,VectorDB;RAG;TensorFlow,5,86
+EMP0179,Employee_179,ML Engineer,LangChain;Kubernetes;Node.js;APIs;TensorFlow,2,82
+EMP0180,Employee_180,ML Engineer,VectorDB;LangChain;RAG;LLM,4,23
+EMP0181,Employee_181,Frontend Developer,VectorDB;React;SQL;Node.js,6,38
+EMP0182,Employee_182,ML Engineer,PyTorch;Docker;APIs;TensorFlow,8,80
+EMP0183,Employee_183,AI Engineer,RAG;PyTorch;Docker,7,62
+EMP0184,Employee_184,AI Engineer,LLM;TensorFlow;React;LangChain;PyTorch,9,37
+EMP0185,Employee_185,ML Engineer,React;LangChain;PyTorch;Node.js;RAG,1,74
+EMP0186,Employee_186,Data Scientist,Node.js;LangChain;SQL;LLM,4,46
+EMP0187,Employee_187,AI Engineer,TensorFlow;SQL;Node.js,4,34
+EMP0188,Employee_188,ML Engineer,LangChain;React;PyTorch;Docker;TensorFlow;Node.js,12,48
+EMP0189,Employee_189,DevOps Engineer,Node.js;APIs;SQL;LLM;Docker;Python,10,33
+EMP0190,Employee_190,AI Engineer,LLM;RAG;SQL;Docker;APIs;Pandas,8,57
+EMP0191,Employee_191,AI Engineer,LangChain;React;RAG;Pandas;Kubernetes,9,11
+EMP0192,Employee_192,Data Scientist,Kubernetes;Pandas;PyTorch;Docker;LangChain;APIs,10,83
+EMP0193,Employee_193,DevOps Engineer,SQL;APIs;TensorFlow,3,61
+EMP0194,Employee_194,ML Engineer,LangChain;Node.js;RAG,1,46
+EMP0195,Employee_195,Frontend Developer,RAG;Pandas;LLM;VectorDB;Python,3,84
+EMP0196,Employee_196,AI Engineer,LangChain;React;TensorFlow;RAG,3,42
+EMP0197,Employee_197,AI Engineer,RAG;Docker;Kubernetes;React;Python;LangChain,5,32
+EMP0198,Employee_198,Data Scientist,Docker;VectorDB;APIs;LangChain;PyTorch,6,88
+EMP0199,Employee_199,Data Engineer,Docker;Node.js;PyTorch,5,32
+EMP0200,Employee_200,Data Engineer,Docker;Node.js;LangChain;APIs;LLM;PyTorch,5,85
+EMP0201,Employee_201,Backend Developer,Python;SQL;APIs;Docker,8,45
+EMP0202,Employee_202,ML Engineer,PyTorch;TensorFlow;Pandas;LLM,7,60
+EMP0203,Employee_203,AI Engineer,LangChain;RAG;VectorDB;Node.js,6,30
+EMP0204,Employee_204,DevOps Engineer,Kubernetes;Docker;AWS;Terraform,9,20
+EMP0205,Employee_205,Frontend Developer,React;TypeScript;Tailwind;Vite,5,55
+EMP0206,Employee_206,Data Scientist,Pandas;Scikit-learn;Matplotlib;SQL,10,70
+EMP0207,Employee_207,Backend Developer,Node.js;Express;PostgreSQL;Redis,4,40
+EMP0208,Employee_208,ML Engineer,TensorFlow;Keras;OpenCV;Python,6,80
+EMP0209,Employee_209,AI Engineer,LLM;Prompt Engineering;LangChain;Python,3,25
+EMP0210,Employee_210,Data Engineer,Spark;Hadoop;Kafka;Scala,12,50
+EMP0211,Employee_211,Backend Developer,Go;Microservices;gRPC;Docker,7,35
+EMP0212,Employee_212,ML Engineer,PyTorch;NLP;Transformers;HuggingFace,5,65
+EMP0213,Employee_213,AI Engineer,Computer Vision;PyTorch;C++;CUDA,8,75
+EMP0214,Employee_214,DevOps Engineer,CI/CD;Jenkins;GitLab;Ansible,6,15
+EMP0215,Employee_215,Frontend Developer,Next.js;React;GraphQL;Apollo,4,48
+EMP0216,Employee_216,Data Scientist,R;Statistics;Tableau;SQL,11,62
+EMP0217,Employee_217,Backend Developer,Java;Spring Boot;MySQL;Kafka,9,58
+EMP0218,Employee_218,ML Engineer,Reinforcement Learning;Gym;PyTorch;Python,7,72
+EMP0219,Employee_219,AI Engineer,Speech Recognition;Kaldi;PyTorch;Signal Processing,10,85
+EMP0220,Employee_220,Data Engineer,Airflow;Snowflake;dbt;SQL,6,42
+EMP0221,Employee_221,Backend Developer,Python;Django;PostgreSQL;Celery,5,30
+EMP0222,Employee_222,ML Engineer,XGBoost;LightGBM;Pandas;Scikit-learn,4,55
+EMP0223,Employee_223,AI Engineer,Generative AI;Stable Diffusion;GANs;PyTorch,5,68
+EMP0224,Employee_224,DevOps Engineer,Azure;Kubernetes;Helm;Monitoring,8,28
+EMP0225,Employee_225,Frontend Developer,Vue.js;Vuex;Sass;Webpack,6,52
+EMP0226,Employee_226,Data Scientist,Deep Learning;TensorFlow;Keras;Python,9,78
+EMP0227,Employee_227,Backend Developer,Ruby on Rails;PostgreSQL;Redis;Sidekiq,7,44
+EMP0228,Employee_228,ML Engineer,Time Series;Prophet;Pandas;Statsmodels,5,60
+EMP0229,Employee_229,AI Engineer,Ethical AI;Bias Detection;Python;Documentation,4,20
+EMP0230,Employee_230,Data Engineer,BigQuery;Dataflow;Pub/Sub;GCP,8,55
+EMP0231,Employee_231,Backend Developer,PHP;Laravel;MySQL;Redis,10,65
+EMP0232,Employee_232,ML Engineer,Edge AI;TensorFlow Lite;C++;Python,6,70
+EMP0233,Employee_233,AI Engineer,Multi-agent Systems;AutoGPT;LangChain;Python,5,40
+EMP0234,Employee_234,DevOps Engineer,Security;Vault;Terraform;Compliance,11,35
+EMP0235,Employee_235,Frontend Developer,Angular;RxJS;TypeScript;Sass,7,58
+EMP0236,Employee_236,Data Scientist,Bayesian Inference;PyMC3;Python;SQL,8,64
+EMP0237,Employee_237,Backend Developer,C#;.NET Core;SQL Server;Azure,12,72
+EMP0238,Employee_238,ML Engineer,Recommendation Systems;Collaborative Filtering;Python,6,82
+EMP0239,Employee_239,AI Engineer,Knowledge Graphs;Neo4j;RDF;Python,7,50
+EMP0240,Employee_240,Data Engineer,Redshift;Glue;Athena;AWS,9,60
+EMP0241,Employee_241,Backend Developer,Rust;WebAssembly;Performance;Docker,5,25
+EMP0242,Employee_242,ML Engineer,Active Learning;Scikit-learn;Python;Labeling,4,45
+EMP0243,Employee_243,AI Engineer,Autonomous Systems;ROS;C++;Python,10,90
+EMP0244,Employee_244,DevOps Engineer,Logging;ELK Stack;Prometheus;Grafana,7,32
+EMP0245,Employee_245,Frontend Developer,Svelte;SvelteKit;Tailwind;Vite,3,38
+EMP0246,Employee_246,Data Scientist,A/B Testing;Experimentation;Python;SQL,6,54
+EMP0247,Employee_247,Backend Developer,Python;FastAPI;MongoDB;RabbitMQ,5,42
+EMP0248,Employee_248,ML Engineer,Feature Engineering;Pandas;SQL;Python,4,50
+EMP0249,Employee_249,AI Engineer,LLM Fine-tuning;LoRA;PEFT;PyTorch,6,75
+EMP0250,Employee_250,Data Engineer,ClickHouse;VectorDB;Python;SQL,7,62
+EMP0251,Employee_251,Backend Developer,Node.js;TypeScript;GraphQL;Prisma,5,48
+EMP0252,Employee_252,ML Engineer,Anomaly Detection;Isolation Forest;Python,6,58
+EMP0253,Employee_253,AI Engineer,RAG;LlamaIndex;VectorDB;Python,4,35
+EMP0254,Employee_254,DevOps Engineer,CloudFormation;AWS;Lambda;Serverless,8,22
+EMP0255,Employee_255,Frontend Developer,React Native;Expo;Mobile;TypeScript,6,65
+EMP0256,Employee_256,Data Scientist,Natural Language Processing;Spacy;NLTK;Python,9,72
+EMP0257,Employee_257,Backend Developer,Go;Kubernetes;Docker;APIs,7,40
+EMP0258,Employee_258,ML Engineer,Computer Vision;YOLO;PyTorch;OpenCV,5,85
+EMP0259,Employee_259,AI Engineer,AI Agents;CrewAI;LangChain;Python,4,30
+EMP0260,Employee_260,Data Engineer,Databricks;Spark;Delta Lake;Python,10,55
+EMP0261,Employee_261,Backend Developer,Python;SQL;APIs;Pandas,11,38
+EMP0262,Employee_262,ML Engineer,Node.js;APIs;SQL;Pandas;VectorDB,6,32
+EMP0263,Employee_263,AI Engineer,Kubernetes;LangChain;PyTorch,5,90
+EMP0264,Employee_264,Backend Developer,Node.js;Pandas;LLM;APIs;RAG,4,51
+EMP0265,Employee_265,ML Engineer,LLM;Pandas;PyTorch,2,87
+EMP0266,Employee_266,ML Engineer,PyTorch;Pandas;APIs;TensorFlow,10,83
+EMP0267,Employee_267,Backend Developer,APIs;RAG;TensorFlow;Python;VectorDB;LLM,5,28
+EMP0268,Employee_268,AI Engineer,LLM;Docker;React;APIs;RAG;VectorDB,11,64
+EMP0269,Employee_269,DevOps Engineer,PyTorch;React;TensorFlow;Docker;LLM;Pandas,8,46
+EMP0270,Employee_270,Data Scientist,Pandas;SQL;APIs;LLM;RAG;VectorDB,4,72
+EMP0271,Employee_271,Data Engineer,LLM;RAG;SQL;Docker;APIs;Pandas,8,57
+EMP0272,Employee_272,AI Engineer,LangChain;React;RAG;Pandas;Kubernetes,9,11
+EMP0273,Employee_273,Data Scientist,Kubernetes;Pandas;PyTorch;Docker;LangChain;APIs,10,83
+EMP0274,Employee_274,DevOps Engineer,SQL;APIs;TensorFlow,3,61
+EMP0275,Employee_275,ML Engineer,LangChain;Node.js;RAG,1,46
+EMP0276,Employee_276,Frontend Developer,RAG;Pandas;LLM;VectorDB;Python,3,84
+EMP0277,Employee_277,AI Engineer,LangChain;React;TensorFlow;RAG,3,42
+EMP0278,Employee_278,AI Engineer,RAG;Docker;Kubernetes;React;Python;LangChain,5,32
+EMP0279,Employee_279,Data Scientist,Docker;VectorDB;APIs;LangChain;PyTorch,6,88
+EMP0280,Employee_280,Data Engineer,Docker;Node.js;PyTorch,5,32
+EMP0281,Employee_281,Data Engineer,Docker;Node.js;LangChain;APIs;LLM;PyTorch,5,85
+EMP0282,Employee_282,Backend Developer,Python;SQL;APIs;Docker,8,45
+EMP0283,Employee_283,ML Engineer,PyTorch;TensorFlow;Pandas;LLM,7,60
+EMP0284,Employee_284,AI Engineer,LangChain;RAG;VectorDB;Node.js,6,30
+EMP0285,Employee_285,DevOps Engineer,Kubernetes;Docker;AWS;Terraform,9,20
+EMP0286,Employee_286,Frontend Developer,React;TypeScript;Tailwind;Vite,5,55
+EMP0287,Employee_287,Data Scientist,Pandas;Scikit-learn;Matplotlib;SQL,10,70
+EMP0288,Employee_288,Backend Developer,Node.js;Express;PostgreSQL;Redis,4,40
+EMP0289,Employee_289,ML Engineer,TensorFlow;Keras;OpenCV;Python,6,80
+EMP0290,Employee_290,AI Engineer,LLM;Prompt Engineering;LangChain;Python,3,25
+EMP0291,Employee_291,Data Engineer,Spark;Hadoop;Kafka;Scala,12,50
+EMP0292,Employee_292,Backend Developer,Go;Microservices;gRPC;Docker,7,35
+EMP0293,Employee_293,ML Engineer,PyTorch;NLP;Transformers;HuggingFace,5,65
+EMP0294,Employee_294,AI Engineer,Computer Vision;PyTorch;C++;CUDA,8,75
+EMP0295,Employee_295,DevOps Engineer,CI/CD;Jenkins;GitLab;Ansible,6,15
+EMP0296,Employee_296,Frontend Developer,Next.js;React;GraphQL;Apollo,4,48
+EMP0297,Employee_297,Data Scientist,R;Statistics;Tableau;SQL,11,62
+EMP0298,Employee_298,Backend Developer,Java;Spring Boot;MySQL;Kafka,9,58
+EMP0299,Employee_299,ML Engineer,Reinforcement Learning;Gym;PyTorch;Python,7,72
+EMP0300,Employee_300,AI Engineer,Speech Recognition;Kaldi;PyTorch;Signal Processing,10,85
+EMP0301,Employee_301,Data Engineer,Airflow;Snowflake;dbt;SQL,6,42
+EMP0302,Employee_302,Backend Developer,Python;Django;PostgreSQL;Celery,5,30
+EMP0303,Employee_303,ML Engineer,XGBoost;LightGBM;Pandas;Scikit-learn,4,55
+EMP0304,Employee_304,AI Engineer,Generative AI;Stable Diffusion;GANs;PyTorch,5,68
+EMP0305,Employee_305,DevOps Engineer,Azure;Kubernetes;Helm;Monitoring,8,28
+EMP0306,Employee_306,Frontend Developer,Vue.js;Vuex;Sass;Webpack,6,52
+EMP0307,Employee_307,Data Scientist,Deep Learning;TensorFlow;Keras;Python,9,78
+EMP0308,Employee_308,Backend Developer,Ruby on Rails;PostgreSQL;Redis;Sidekiq,7,44
+EMP0309,Employee_309,ML Engineer,Time Series;Prophet;Pandas;Statsmodels,5,60
+EMP0310,Employee_310,AI Engineer,Ethical AI;Bias Detection;Python;Documentation,4,20
+EMP0311,Employee_311,Data Engineer,BigQuery;Dataflow;Pub/Sub;GCP,8,55
+EMP0312,Employee_312,Backend Developer,PHP;Laravel;MySQL;Redis,10,65
+EMP0313,Employee_313,ML Engineer,Edge AI;TensorFlow Lite;C++;Python,6,70
+EMP0314,Employee_314,AI Engineer,Multi-agent Systems;AutoGPT;LangChain;Python,5,40
+EMP0315,Employee_315,DevOps Engineer,Security;Vault;Terraform;Compliance,11,35
+EMP0316,Employee_316,Frontend Developer,Angular;RxJS;TypeScript;Sass,7,58
+EMP0317,Employee_317,Data Scientist,Bayesian Inference;PyMC3;Python;SQL,8,64
+EMP0318,Employee_318,Backend Developer,C#;.NET Core;SQL Server;Azure,12,72
+EMP0319,Employee_319,ML Engineer,Recommendation Systems;Collaborative Filtering;Python,6,82
+EMP0320,Employee_320,AI Engineer,Knowledge Graphs;Neo4j;RDF;Python,7,50
+EMP0321,Employee_321,Data Engineer,Redshift;Glue;Athena;AWS,9,60
+EMP0322,Employee_322,Backend Developer,Rust;WebAssembly;Performance;Docker,5,25
+EMP0323,Employee_323,ML Engineer,Active Learning;Scikit-learn;Python;Labeling,4,45
+EMP0324,Employee_324,AI Engineer,Autonomous Systems;ROS;C++;Python,10,90
+EMP0325,Employee_325,DevOps Engineer,Logging;ELK Stack;Prometheus;Grafana,7,32
+EMP0326,Employee_326,Frontend Developer,Svelte;SvelteKit;Tailwind;Vite,3,38
+EMP0327,Employee_327,Data Scientist,A/B Testing;Experimentation;Python;SQL,6,54
+EMP0328,Employee_328,Backend Developer,Python;FastAPI;MongoDB;RabbitMQ,5,42
+EMP0329,Employee_329,ML Engineer,Feature Engineering;Pandas;SQL;Python,4,50
+EMP0330,Employee_330,AI Engineer,LLM Fine-tuning;LoRA;PEFT;PyTorch,6,75
+EMP0331,Employee_331,Data Engineer,ClickHouse;VectorDB;Python;SQL,7,62
+EMP0332,Employee_332,Backend Developer,Node.js;TypeScript;GraphQL;Prisma,5,48
+EMP0333,Employee_333,ML Engineer,Anomaly Detection;Isolation Forest;Python,6,58
+EMP0334,Employee_334,AI Engineer,RAG;LlamaIndex;VectorDB;Python,4,35
+EMP0335,Employee_335,DevOps Engineer,CloudFormation;AWS;Lambda;Serverless,8,22
+EMP0336,Employee_336,Frontend Developer,React Native;Expo;Mobile;TypeScript,6,65
+EMP0337,Employee_337,Data Scientist,Natural Language Processing;Spacy;NLTK;Python,9,72
+EMP0338,Employee_338,Backend Developer,Go;Kubernetes;Docker;APIs,7,40
+EMP0339,Employee_339,ML Engineer,Computer Vision;YOLO;PyTorch;OpenCV,5,85
+EMP0340,Employee_340,AI Engineer,AI Agents;CrewAI;LangChain;Python,4,30
+EMP0341,Employee_341,Data Engineer,Databricks;Spark;Delta Lake;Python,10,55
+EMP0342,Employee_342,Backend Developer,Python;SQL;APIs;Pandas,11,38
+EMP0343,Employee_343,ML Engineer,Node.js;APIs;SQL;Pandas;VectorDB,6,32
+EMP0344,Employee_344,AI Engineer,Kubernetes;LangChain;PyTorch,5,90
+EMP0345,Employee_345,Backend Developer,Node.js;Pandas;LLM;APIs;RAG,4,51
+EMP0346,Employee_346,ML Engineer,LLM;Pandas;PyTorch,2,87
+EMP0347,Employee_347,ML Engineer,PyTorch;Pandas;APIs;TensorFlow,10,83
+EMP0348,Employee_348,Backend Developer,APIs;RAG;TensorFlow;Python;VectorDB;LLM,5,28
+EMP0349,Employee_349,AI Engineer,LLM;Docker;React;APIs;RAG;VectorDB,11,64
+EMP0350,Employee_350,DevOps Engineer,PyTorch;React;TensorFlow;Docker;LLM;Pandas,8,46
+EMP0351,Employee_351,Data Scientist,Pandas;SQL;APIs;LLM;RAG;VectorDB,4,72
+EMP0352,Employee_352,Data Engineer,LLM;RAG;SQL;Docker;APIs;Pandas,8,57
+EMP0353,Employee_353,AI Engineer,LangChain;React;RAG;Pandas;Kubernetes,9,11
+EMP0354,Employee_354,Data Scientist,Kubernetes;Pandas;PyTorch;Docker;LangChain;APIs,10,83
+EMP0355,Employee_355,DevOps Engineer,SQL;APIs;TensorFlow,3,61
+EMP0356,Employee_356,ML Engineer,LangChain;Node.js;RAG,1,46
+EMP0357,Employee_357,Frontend Developer,RAG;Pandas;LLM;VectorDB;Python,3,84
+EMP0358,Employee_358,AI Engineer,LangChain;React;TensorFlow;RAG,3,42
+EMP0359,Employee_359,AI Engineer,RAG;Docker;Kubernetes;React;Python;LangChain,5,32
+EMP0360,Employee_360,Data Scientist,Docker;VectorDB;APIs;LangChain;PyTorch,6,88
+EMP0361,Employee_361,Data Engineer,Docker;Node.js;PyTorch,5,32
+EMP0362,Employee_362,Data Engineer,Docker;Node.js;LangChain;APIs;LLM;PyTorch,5,85
+EMP0363,Employee_363,Backend Developer,Python;SQL;APIs;Docker,8,45
+EMP0364,Employee_364,ML Engineer,PyTorch;TensorFlow;Pandas;LLM,7,60
+EMP0365,Employee_365,AI Engineer,LangChain;RAG;VectorDB;Node.js,6,30
+EMP0366,Employee_366,DevOps Engineer,Kubernetes;Docker;AWS;Terraform,9,20
+EMP0367,Employee_367,Frontend Developer,React;TypeScript;Tailwind;Vite,5,55
+EMP0368,Employee_368,Data Scientist,Pandas;Scikit-learn;Matplotlib;SQL,10,70
+EMP0369,Employee_369,Backend Developer,Node.js;Express;PostgreSQL;Redis,4,40
+EMP0370,Employee_370,ML Engineer,TensorFlow;Keras;OpenCV;Python,6,80
+EMP0371,Employee_371,AI Engineer,LLM;Prompt Engineering;LangChain;Python,3,25
+EMP0372,Employee_372,Data Engineer,Spark;Hadoop;Kafka;Scala,12,50
+EMP0373,Employee_373,Backend Developer,Go;Microservices;gRPC;Docker,7,35
+EMP0374,Employee_374,ML Engineer,PyTorch;NLP;Transformers;HuggingFace,5,65
+EMP0375,Employee_375,AI Engineer,Computer Vision;PyTorch;C++;CUDA,8,75
+EMP0376,Employee_376,DevOps Engineer,CI/CD;Jenkins;GitLab;Ansible,6,15
+EMP0377,Employee_377,Frontend Developer,Next.js;React;GraphQL;Apollo,4,48
+EMP0378,Employee_378,Data Scientist,R;Statistics;Tableau;SQL,11,62
+EMP0379,Employee_379,Backend Developer,Java;Spring Boot;MySQL;Kafka,9,58
+EMP0380,Employee_380,ML Engineer,Reinforcement Learning;Gym;PyTorch;Python,7,72
+EMP0381,Employee_381,AI Engineer,Speech Recognition;Kaldi;PyTorch;Signal Processing,10,85
+EMP0382,Employee_382,Data Engineer,Airflow;Snowflake;dbt;SQL,6,42
+EMP0383,Employee_383,Backend Developer,Python;Django;PostgreSQL;Celery,5,30
+EMP0384,Employee_384,ML Engineer,XGBoost;LightGBM;Pandas;Scikit-learn,4,55
+EMP0385,Employee_385,AI Engineer,Generative AI;Stable Diffusion;GANs;PyTorch,5,68
+EMP0386,Employee_386,DevOps Engineer,Azure;Kubernetes;Helm;Monitoring,8,28
+EMP0387,Employee_387,Frontend Developer,Vue.js;Vuex;Sass;Webpack,6,52
+EMP0388,Employee_388,Data Scientist,Deep Learning;TensorFlow;Keras;Python,9,78
+EMP0389,Employee_389,Backend Developer,Ruby on Rails;PostgreSQL;Redis;Sidekiq,7,44
+EMP0390,Employee_390,ML Engineer,Time Series;Prophet;Pandas;Statsmodels,5,60
+EMP0391,Employee_391,AI Engineer,Ethical AI;Bias Detection;Python;Documentation,4,20
+EMP0392,Employee_392,Data Engineer,BigQuery;Dataflow;Pub/Sub;GCP,8,55
+EMP0393,Employee_393,Backend Developer,PHP;Laravel;MySQL;Redis,10,65
+EMP0394,Employee_394,ML Engineer,Edge AI;TensorFlow Lite;C++;Python,6,70
+EMP0395,Employee_395,AI Engineer,Multi-agent Systems;AutoGPT;LangChain;Python,5,40
+EMP0396,Employee_396,DevOps Engineer,Security;Vault;Terraform;Compliance,11,35
+EMP0397,Employee_397,Frontend Developer,Angular;RxJS;TypeScript;Sass,7,58
+EMP0398,Employee_398,Data Scientist,Bayesian Inference;PyMC3;Python;SQL,8,64
+EMP0399,Employee_399,Backend Developer,C#;.NET Core;SQL Server;Azure,12,72
+EMP0400,Employee_400,ML Engineer,Recommendation Systems;Collaborative Filtering;Python,6,82
+EMP0401,Employee_401,AI Engineer,Knowledge Graphs;Neo4j;RDF;Python,7,50
+EMP0402,Employee_402,Data Engineer,Redshift;Glue;Athena;AWS,9,60
+EMP0403,Employee_403,Backend Developer,Rust;WebAssembly;Performance;Docker,5,25
+EMP0404,Employee_404,ML Engineer,Active Learning;Scikit-learn;Python;Labeling,4,45
+EMP0405,Employee_405,AI Engineer,Autonomous Systems;ROS;C++;Python,10,90
+EMP0406,Employee_406,DevOps Engineer,Logging;ELK Stack;Prometheus;Grafana,7,32
+EMP0407,Employee_407,Frontend Developer,Svelte;SvelteKit;Tailwind;Vite,3,38
+EMP0408,Employee_408,Data Scientist,A/B Testing;Experimentation;Python;SQL,6,54
+EMP0409,Employee_409,Backend Developer,Python;FastAPI;MongoDB;RabbitMQ,5,42
+EMP0410,Employee_410,ML Engineer,Feature Engineering;Pandas;SQL;Python,4,50
+EMP0411,Employee_411,AI Engineer,LLM Fine-tuning;LoRA;PEFT;PyTorch,6,75
+EMP0412,Employee_412,Data Engineer,ClickHouse;VectorDB;Python;SQL,7,62
+EMP0413,Employee_413,Backend Developer,Node.js;TypeScript;GraphQL;Prisma,5,48
+EMP0414,Employee_414,ML Engineer,Anomaly Detection;Isolation Forest;Python,6,58
+EMP0415,Employee_415,AI Engineer,RAG;LlamaIndex;VectorDB;Python,4,35
+EMP0416,Employee_416,DevOps Engineer,CloudFormation;AWS;Lambda;Serverless,8,22
+EMP0417,Employee_417,Frontend Developer,React Native;Expo;Mobile;TypeScript,6,65
+EMP0418,Employee_418,Data Scientist,Natural Language Processing;Spacy;NLTK;Python,9,72
+EMP0419,Employee_419,Backend Developer,Go;Kubernetes;Docker;APIs,7,40
+EMP0420,Employee_420,ML Engineer,Computer Vision;YOLO;PyTorch;OpenCV,5,85
+EMP0421,Employee_421,AI Engineer,AI Agents;CrewAI;LangChain;Python,4,30
+EMP0422,Employee_422,Data Engineer,Databricks;Spark;Delta Lake;Python,10,55
+EMP0423,Employee_423,Backend Developer,Python;SQL;APIs;Pandas,11,38
+EMP0424,Employee_424,ML Engineer,Node.js;APIs;SQL;Pandas;VectorDB,6,32
+EMP0425,Employee_425,AI Engineer,Kubernetes;LangChain;PyTorch,5,90
+EMP0426,Employee_426,Backend Developer,Node.js;Pandas;LLM;APIs;RAG,4,51
+EMP0427,Employee_427,ML Engineer,LLM;Pandas;PyTorch,2,87
+EMP0428,Employee_428,ML Engineer,PyTorch;Pandas;APIs;TensorFlow,10,83
+EMP0429,Employee_429,Backend Developer,APIs;RAG;TensorFlow;Python;VectorDB;LLM,5,28
+EMP0430,Employee_430,AI Engineer,LLM;Docker;React;APIs;RAG;VectorDB,11,64
+EMP0431,Employee_431,DevOps Engineer,PyTorch;React;TensorFlow;Docker;LLM;Pandas,8,46
+EMP0432,Employee_432,Data Scientist,Pandas;SQL;APIs;LLM;RAG;VectorDB,4,72
+EMP0433,Employee_433,Data Engineer,LLM;RAG;SQL;Docker;APIs;Pandas,8,57
+EMP0434,Employee_434,AI Engineer,LangChain;React;RAG;Pandas;Kubernetes,9,11
+EMP0435,Employee_435,Data Scientist,Kubernetes;Pandas;PyTorch;Docker;LangChain;APIs,10,83
+EMP0436,Employee_436,DevOps Engineer,SQL;APIs;TensorFlow,3,61
+EMP0437,Employee_437,ML Engineer,LangChain;Node.js;RAG,1,46
+EMP0438,Employee_438,Frontend Developer,RAG;Pandas;LLM;VectorDB;Python,3,84
+EMP0439,Employee_439,AI Engineer,LangChain;React;TensorFlow;RAG,3,42
+EMP0440,Employee_440,AI Engineer,RAG;Docker;Kubernetes;React;Python;LangChain,5,32
+EMP0441,Employee_441,Data Scientist,Docker;VectorDB;APIs;LangChain;PyTorch,6,88
+EMP0442,Employee_442,Data Engineer,Docker;Node.js;PyTorch,5,32
+EMP0443,Employee_443,Data Engineer,Docker;Node.js;LangChain;APIs;LLM;PyTorch,5,85
+EMP0444,Employee_444,Backend Developer,Python;SQL;APIs;Docker,8,45
+EMP0445,Employee_445,ML Engineer,PyTorch;TensorFlow;Pandas;LLM,7,60
+EMP0446,Employee_446,AI Engineer,LangChain;RAG;VectorDB;Node.js,6,30
+EMP0447,Employee_447,DevOps Engineer,Kubernetes;Docker;AWS;Terraform,9,20
+EMP0448,Employee_448,Frontend Developer,React;TypeScript;Tailwind;Vite,5,55
+EMP0449,Employee_449,Data Scientist,Pandas;Scikit-learn;Matplotlib;SQL,10,70
+EMP0450,Employee_450,Backend Developer,Node.js;Express;PostgreSQL;Redis,4,40
+EMP0451,Employee_451,ML Engineer,TensorFlow;Keras;OpenCV;Python,6,80
+EMP0452,Employee_452,AI Engineer,LLM;Prompt Engineering;LangChain;Python,3,25
+EMP0453,Employee_453,Data Engineer,Spark;Hadoop;Kafka;Scala,12,50
+EMP0454,Employee_454,Backend Developer,Go;Microservices;gRPC;Docker,7,35
+EMP0455,Employee_455,ML Engineer,PyTorch;NLP;Transformers;HuggingFace,5,65
+EMP0456,Employee_456,AI Engineer,Computer Vision;PyTorch;C++;CUDA,8,75
+EMP0457,Employee_457,DevOps Engineer,CI/CD;Jenkins;GitLab;Ansible,6,15
+EMP0458,Employee_458,Frontend Developer,Next.js;React;GraphQL;Apollo,4,48
+EMP0459,Employee_459,Data Scientist,R;Statistics;Tableau;SQL,11,62
+EMP0460,Employee_460,Backend Developer,Java;Spring Boot;MySQL;Kafka,9,58
+EMP0461,Employee_461,ML Engineer,Reinforcement Learning;Gym;PyTorch;Python,7,72
+EMP0462,Employee_462,AI Engineer,Speech Recognition;Kaldi;PyTorch;Signal Processing,10,85
+EMP0463,Employee_463,Data Engineer,Airflow;Snowflake;dbt;SQL,6,42
+EMP0464,Employee_464,Backend Developer,Python;Django;PostgreSQL;Celery,5,30
+EMP0465,Employee_465,ML Engineer,XGBoost;LightGBM;Pandas;Scikit-learn,4,55
+EMP0466,Employee_466,AI Engineer,Generative AI;Stable Diffusion;GANs;PyTorch,5,68
+EMP0467,Employee_467,DevOps Engineer,Azure;Kubernetes;Helm;Monitoring,8,28
+EMP0468,Employee_468,Frontend Developer,Vue.js;Vuex;Sass;Webpack,6,52
+EMP0469,Employee_469,Data Scientist,Deep Learning;TensorFlow;Keras;Python,9,78
+EMP0470,Employee_470,Backend Developer,Ruby on Rails;PostgreSQL;Redis;Sidekiq,7,44
+EMP0471,Employee_471,ML Engineer,Time Series;Prophet;Pandas;Statsmodels,5,60
+EMP0472,Employee_472,AI Engineer,Ethical AI;Bias Detection;Python;Documentation,4,20
+EMP0473,Employee_473,Data Engineer,BigQuery;Dataflow;Pub/Sub;GCP,8,55
+EMP0474,Employee_474,Backend Developer,PHP;Laravel;MySQL;Redis,10,65
+EMP0475,Employee_475,ML Engineer,Edge AI;TensorFlow Lite;C++;Python,6,70
+EMP0476,Employee_476,AI Engineer,Multi-agent Systems;AutoGPT;LangChain;Python,5,40
+EMP0477,Employee_477,DevOps Engineer,Security;Vault;Terraform;Compliance,11,35
+EMP0478,Employee_478,Frontend Developer,Angular;RxJS;TypeScript;Sass,7,58
+EMP0479,Employee_479,Data Scientist,Bayesian Inference;PyMC3;Python;SQL,8,64
+EMP0480,Employee_480,Backend Developer,C#;.NET Core;SQL Server;Azure,12,72
+EMP0481,Employee_481,ML Engineer,Recommendation Systems;Collaborative Filtering;Python,6,82
+EMP0482,Employee_482,AI Engineer,Knowledge Graphs;Neo4j;RDF;Python,7,50
+EMP0483,Employee_483,Data Engineer,Redshift;Glue;Athena;AWS,9,60
+EMP0484,Employee_484,Backend Developer,Rust;WebAssembly;Performance;Docker,5,25
+EMP0485,Employee_485,ML Engineer,Active Learning;Scikit-learn;Python;Labeling,4,45
+EMP0486,Employee_486,AI Engineer,Autonomous Systems;ROS;C++;Python,10,90
+EMP0487,Employee_487,DevOps Engineer,Logging;ELK Stack;Prometheus;Grafana,7,32
+EMP0488,Employee_488,Frontend Developer,Svelte;SvelteKit;Tailwind;Vite,3,38
+EMP0489,Employee_489,Data Scientist,A/B Testing;Experimentation;Python;SQL,6,54
+EMP0490,Employee_490,Backend Developer,Python;FastAPI;MongoDB;RabbitMQ,5,42
+EMP0491,Employee_491,ML Engineer,Feature Engineering;Pandas;SQL;Python,4,50
+EMP0492,Employee_492,AI Engineer,LLM Fine-tuning;LoRA;PEFT;PyTorch,6,75
+EMP0493,Employee_493,Data Engineer,ClickHouse;VectorDB;Python;SQL,7,62
+EMP0494,Employee_494,Backend Developer,Node.js;TypeScript;GraphQL;Prisma,5,48
+EMP0495,Employee_495,ML Engineer,Anomaly Detection;Isolation Forest;Python,6,58
+EMP0496,Employee_496,AI Engineer,RAG;LlamaIndex;VectorDB;Python,4,35
+EMP0497,Employee_497,DevOps Engineer,CloudFormation;AWS;Lambda;Serverless,8,22
+EMP0498,Employee_498,Frontend Developer,React Native;Expo;Mobile;TypeScript,6,65
+EMP0499,Employee_499,Data Scientist,Natural Language Processing;Spacy;NLTK;Python,9,72
+EMP0500,Employee_500,Backend Developer,Go;Kubernetes;Docker;APIs,7,40

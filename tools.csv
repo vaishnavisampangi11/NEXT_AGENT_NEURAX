@@ -1,0 +1,51 @@
+tool_id,tool_name,tool_type,purpose
+T001,OpenAI API,LLM API,Natural language reasoning and generation
+T002,Pinecone,Vector Database,RAG semantic search
+T003,PostgreSQL,Database,Structured relational storage
+T004,Redis,Cache Database,Fast caching and session storage
+T005,LangChain,Framework,AI agent orchestration
+T006,LlamaIndex,Framework,Knowledge retrieval and indexing
+T007,Docker,DevOps Tool,Containerization
+T008,Kubernetes,DevOps Tool,Container orchestration
+T009,Google Search API,Search Engine,External information retrieval
+T010,NeuroX Core,AI Framework,Advanced neural network optimization
+T011,NeuroX Vision,Computer Vision,Real-time object detection and tracking
+T012,NeuroX NLP,Language Processing,Domain-specific language models
+T013,NeuroX Edge,Deployment Tool,Optimized AI for edge devices
+T014,NeuroX DataHub,Data Platform,Large-scale data ingestion and cleaning
+T015,TensorFlow,ML Framework,Deep learning model training
+T016,PyTorch,ML Framework,Dynamic neural network research
+T017,Scikit-learn,ML Library,Classical machine learning algorithms
+T018,Pandas,Data Library,Data manipulation and analysis
+T019,AWS Lambda,Serverless,Event-driven compute functions
+T020,Terraform,IaC Tool,Infrastructure as code automation
+T021,Prometheus,Monitoring,Time-series metrics collection
+T022,Grafana,Visualization,Dashboarding and monitoring
+T023,Kafka,Streaming,Real-time data pipelines
+T024,Elasticsearch,Search Engine,Full-text search and analytics
+T025,GitHub Actions,CI/CD,Automated build and deploy workflows
+T026,FastAPI,Web Framework,High-performance API development
+T027,React,Frontend Library,Component-based UI development
+T028,Next.js,Web Framework,Full-stack React applications
+T029,GraphQL,API Query,Flexible data fetching
+T030,MongoDB,NoSQL Database,Document-oriented storage
+T031,Airflow,Orchestration,Workflow scheduling and monitoring
+T032,Snowflake,Data Warehouse,Cloud-based data analytics
+T033,dbt,Data Tool,Data transformation in warehouse
+T034,Spark,Data Processing,Distributed big data compute
+T035,Ray,Distributed AI,Scaling ML workloads
+T036,Weights & Biases,MLOps,Experiment tracking and versioning
+T037,MLflow,MLOps,Lifecycle management for ML
+T038,HuggingFace,AI Platform,Pre-trained model repository
+T039,ChromaDB,Vector Database,Open-source embedding storage
+T040,Milvus,Vector Database,Enterprise-grade vector search
+T041,Jenkins,CI/CD,Automation server
+T042,Ansible,Configuration,Automation and orchestration
+T043,Vault,Security,Secret management
+T044,Tableau,BI Tool,Business intelligence and reporting
+T045,PowerBI,BI Tool,Data visualization and analysis
+T046,Jupyter,Notebook,Interactive data science
+T047,Streamlit,Web App,Building data apps quickly
+T048,Gradio,AI Demo,Machine learning model interfaces
+T049,Fast.ai,AI Library,High-level deep learning
+T050,DVC,Data Versioning,Data and model version control
